@@ -2,15 +2,6 @@
 ----------------------------------------------------------------------------------------------------------------------
 PRODUCT GALLERY COMPONENT
 ----------------------------------------------------------------------------------------------------------------------
-
-This component is used to show the product gallery (used in product page and featured product section)
-
-********************************************
-Supported variables
-********************************************
-
-* product: the product to render (if empty, renders placeholder content)
-* product_form_id: the product form id
 {%- endcomment -%}
 
 {%- capture product_gallery_id -%}product-gallery-{{ product.id }}-{{ section.id }}{%- endcapture -%}
@@ -19,10 +10,10 @@ Supported variables
 
 {%- assign langue_active = request.locale.iso_code -%}
 
-{%- if langue_active == 'it' and product.metafields.custom.images_italien.value != blank -%}
-  {%- assign product_media = product.metafields.custom.images_italien.value -%}
-{%- elsif langue_active == 'es' and product.metafields.custom.images_espagnol.value != blank -%}
-  {%- assign product_media = product.metafields.custom.images_espagnol.value -%}
+{%- if langue_active == 'de' and product.metafields.custom.images_allemand.value != blank -%}
+  {%- assign product_media = product.metafields.custom.images_allemand.value -%}
+{%- elsif langue_active == 'en' and product.metafields.custom.images_anglais.value != blank -%}
+  {%- assign product_media = product.metafields.custom.images_anglais.value -%}
 {%- elsif product.metafields.custom.images_francais.value != blank -%}
   {%- assign product_media = product.metafields.custom.images_francais.value -%}
 {%- else -%}
@@ -77,11 +68,6 @@ Supported variables
         </custom-cursor>
       {%- endif -%}
 
-      {%- comment -%}
-      --------------------------------------------------------------------------------------------------------------------
-      MEDIA LIST
-      --------------------------------------------------------------------------------------------------------------------
-      {%- endcomment -%}
       <media-carousel desktop-mode="{{ section.settings.desktop_media_layout }}" adaptive-height initial-index="0" {% if section.settings.enable_video_autoplay %}autoplay{% endif %} id="{{ product_gallery_id }}" class="product-gallery__media-list {% if section.settings.mobile_media_size == 'expanded' %}full-bleed{% else %}bleed{% endif %} scroll-area md:unbleed">
         {%- assign media_attached_to_variant = product.images | where: 'attached_to_variant?', true | map: 'src' -%}
 
@@ -138,12 +124,6 @@ Supported variables
       {%- endif -%}
     </div>
 
-    {%- comment -%}
-    ----------------------------------------------------------------------------------------------------------------------
-    VIEW IN YOUR SPACE
-    ----------------------------------------------------------------------------------------------------------------------
-    {%- endcomment -%}
-
     {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
 
     {%- if first_3d_model -%}
@@ -157,12 +137,6 @@ Supported variables
       </button>
     {%- endif -%}
   </div>
-
-  {%- comment -%}
-  --------------------------------------------------------------------------------------------------------------------
-  CONTROLS
-  --------------------------------------------------------------------------------------------------------------------
-  {%- endcomment -%}
 
   {%- if product_media.size > 1 -%}
     {%- if section.settings.mobile_carousel_control == 'dots' -%}
