@@ -131,6 +131,124 @@
         "heading_gradient": ""
       }
     },
+    "multi_column_pnb8mU": {
+      "type": "multi-column",
+      "blocks": {
+        "item_BndhCA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260609_174037_1ac26633-3456-4647-bc7a-7d12c74b0677.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_8N33Pd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260609_192705_39b8a83f-415a-404a-b3ff-0ea9e0c838b3.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_nBiPat": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260609_192623_d84e6367-47d0-48ef-9c20-fe3bcb953a0c.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_YfCMX7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260609_192748_bee632e1-7e18-4182-b89d-ee2978a95f0e.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_hpF9zV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260609_192717_bb564f6e-f219-4167-963f-b23bdb585e37.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_WVHgdh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260609_192739_56246f5d-b812-4dba-b37e-1a96a5d03a42.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pPe4Bb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260609_192705_39b8a83f-415a-404a-b3ff-0ea9e0c838b3.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_BndhCA",
+        "item_8N33Pd",
+        "item_nBiPat",
+        "item_YfCMX7",
+        "item_hpF9zV",
+        "item_WVHgdh",
+        "item_pPe4Bb"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_AHiLGf": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -161,6 +279,7 @@
   "order": [
     "main",
     "tabs_cUQBqW",
+    "multi_column_pnb8mU",
     "custom_liquid_AHiLGf",
     "custom_liquid_MkmExh"
   ]
