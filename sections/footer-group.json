@@ -19,7 +19,7 @@
           "settings": {
             "title": "Service Client",
             "content": "<p>Par mail : contact@cosmellia.com</p><p>Réponse sous 48h, 7 jours sur 7.</p>",
-            "enable_follow_on_shop": true
+            "enable_follow_on_shop": false
           }
         }
       },
