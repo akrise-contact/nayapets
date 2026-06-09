@@ -74,6 +74,63 @@
         "input_text_color": ""
       }
     },
+    "tabs_cUQBqW": {
+      "type": "tabs",
+      "blocks": {
+        "tab_XaaVQg": {
+          "type": "tab",
+          "settings": {
+            "title": "Comment l'utiliser ?",
+            "content": "<p>① Vaporisez sur peau sèche à l'endroit souhaité.<br/><br/>② Massez doucement en cercles pendant 20 à 30 secondes.<br/><br/>③ Rincez à l'eau tiède. 2 à 3 fois par semaine suffisent.</p>",
+            "page": ""
+          }
+        },
+        "tab_pMD8nT": {
+          "type": "tab",
+          "settings": {
+            "title": "Sur quelles zones ?",
+            "content": "<p>Aisselles, Coudes ,Genoux, Dos & nuque, Bras & jambes, Décolleté & épaules, Talons</p>",
+            "page": ""
+          }
+        },
+        "tab_bC3yGr": {
+          "type": "tab",
+          "settings": {
+            "title": "Compatible avec mon type de peau ?",
+            "content": "<p>Oui. Notre spray s'adapte à tous les types de peaux.</p><p><br/>✅ Normale ✅ Mixte ✅ Grasse ✅ Sèche ✅ Sensible ✅ Mate ✅ Foncée</p><p><br/>Formule douce testée cliniquement. En cas de condition cutanée particulière, testez d'abord sur une petite zone.</p>",
+            "page": ""
+          }
+        },
+        "tab_GJfkUd": {
+          "type": "tab",
+          "settings": {
+            "title": "Aucun risque",
+            "content": "<p>Ni 30 jours. Ni 60 jours. 90 jours entiers pour juger par vous-même. Aucun résultat visible ? Remboursement complet, immédiat, sans justification. On peut se le permettre parce qu'on y croit. Vous n'avez qu'une chose à perdre : vos taches.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_XaaVQg",
+        "tab_pMD8nT",
+        "tab_bC3yGr",
+        "tab_GJfkUd"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "custom_liquid_AHiLGf": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -99,60 +156,12 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "tabs_cUQBqW": {
-      "type": "tabs",
-      "blocks": {
-        "tab_XaaVQg": {
-          "type": "tab",
-          "settings": {
-            "title": "Comment l'utiliser ?",
-            "content": "<p>① Vaporisez sur peau sèche à l'endroit souhaité.<br/><br/>② Massez doucement en cercles pendant 20 à 30 secondes.<br/><br/>③ Rincez à l'eau tiède. 2 à 3 fois par semaine suffisent.</p>",
-            "page": ""
-          }
-        },
-        "tab_pMD8nT": {
-          "type": "tab",
-          "settings": {
-            "title": "Sur quelles zones ?",
-            "content": "<p>Aisselles, Coudes ,Genoux, Dos & nuque, Bras & jambes, Décolleté & épaules, Talons</p>",
-            "page": ""
-          }
-        },
-        "tab_bC3yGr": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab 3",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_XaaVQg",
-        "tab_pMD8nT",
-        "tab_bC3yGr"
-      ],
-      "name": "Tabs",
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "subheading": "",
-        "title": "",
-        "text_alignment": "center",
-        "first_tab_open": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
     }
   },
   "order": [
     "main",
+    "tabs_cUQBqW",
     "custom_liquid_AHiLGf",
-    "custom_liquid_MkmExh",
-    "tabs_cUQBqW"
+    "custom_liquid_MkmExh"
   ]
 }
