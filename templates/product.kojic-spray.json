@@ -21,7 +21,7 @@
         "text_ekqfNg": {
           "type": "text",
           "settings": {
-            "text": "<h3>Cosmellia - Spray Exfoliant Anti-Taches </h3>"
+            "text": "<h3>Cosmellia – Dark Spot Exfoliating Spray</h3>"
           }
         },
         "liquid_KFctiV": {
@@ -80,32 +80,32 @@
         "tab_XaaVQg": {
           "type": "tab",
           "settings": {
-            "title": "Comment l'utiliser ?",
-            "content": "<p>① Vaporisez sur peau sèche à l'endroit souhaité.<br/><br/>② Massez doucement en cercles pendant 20 à 30 secondes.<br/><br/>③ Rincez à l'eau tiède. 2 à 3 fois par semaine suffisent.</p>",
+            "title": "How to use it?",
+            "content": "<p>① Spray on dry skin where needed.<br/><br/>② Gently massage in circular motions for 20–30 seconds.<br/><br/>③ Rinse with warm water. 2–3 times a week is enough.</p>",
             "page": ""
           }
         },
         "tab_pMD8nT": {
           "type": "tab",
           "settings": {
-            "title": "Sur quelles zones ?",
-            "content": "<p>Aisselles, Coudes ,Genoux, Dos & nuque, Bras & jambes, Décolleté & épaules, Talons</p>",
+            "title": "Which areas can I use it on?",
+            "content": "<p>Underarms, elbows, knees, back & neck, arms & legs, chest & shoulders, heels</p>",
             "page": ""
           }
         },
         "tab_bC3yGr": {
           "type": "tab",
           "settings": {
-            "title": "Compatible avec mon type de peau ?",
-            "content": "<p>Oui. Notre spray s'adapte à tous les types de peaux.</p><p><br/>✅ Normale ✅ Mixte ✅ Grasse ✅ Sèche ✅ Sensible ✅ Mate ✅ Foncée</p><p><br/>Formule douce testée cliniquement. En cas de condition cutanée particulière, testez d'abord sur une petite zone.</p>",
+            "title": "Is it suitable for my skin type?",
+            "content": "<p>Yes. Our spray works for all skin types.<br/><br/>✅ Normal ✅ Combination ✅ Oily ✅ Dry ✅ Sensitive ✅ Light ✅ Dark</p><p>Gentle, clinically tested formula. If you have a specific skin condition, test on a small area first.</p>",
             "page": ""
           }
         },
         "tab_GJfkUd": {
           "type": "tab",
           "settings": {
-            "title": "Aucun risque",
-            "content": "<p>Ni 30 jours. Ni 60 jours. 90 jours entiers pour juger par vous-même. Aucun résultat visible ? Remboursement complet, immédiat, sans justification. On peut se le permettre parce qu'on y croit. Vous n'avez qu'une chose à perdre : vos taches.</p>",
+            "title": "Risk-free",
+            "content": "<p>Not 30 days. Not 60 days. A full 90 days to judge for yourself. No visible results? Full, immediate refund, no questions asked. We can afford to offer this because we believe in it. You have nothing to lose but your dark spots.</p>",
             "page": ""
           }
         }
