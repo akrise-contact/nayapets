@@ -318,7 +318,8 @@
       "empty": "Votre panier est vide",
       "item_count": {
         "one": "{{ count }} article",
-        "other": "{{ count }} articles"
+        "other": "{{ count }} articles",
+        "zero": "{{ count }} articles"
       },
       "continue_shopping": "Explorer nos produits",
       "weight": "Poids",
@@ -417,7 +418,7 @@
   "password": {
     "general": {
       "follow_us": "Nous suivre",
-      "powered_by": "",
+      "powered_by": "Cette boutique est propulsée par",
       "store_owner": "Gérant de la boutique ?",
       "login": "Se connecter"
     },
