@@ -14,15 +14,23 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_WwFrGa": {
+          "type": "message",
+          "settings": {
+            "text": "Limited stock - Limites offer",
+            "url": ""
+          }
+        },
         "message": {
           "type": "message",
           "settings": {
-            "text": "Summer Sale !",
+            "text": "Try it risk-free for 90 days",
             "url": ""
           }
         }
       },
       "block_order": [
+        "message_WwFrGa",
         "message"
       ],
       "settings": {
