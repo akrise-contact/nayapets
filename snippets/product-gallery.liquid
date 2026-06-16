@@ -14,6 +14,8 @@ PRODUCT GALLERY COMPONENT
   {%- assign product_media = product.metafields.custom.images_allemand.value -%}
 {%- elsif langue_active == 'en' and product.metafields.custom.images_anglais.value != blank -%}
   {%- assign product_media = product.metafields.custom.images_anglais.value -%}
+{%- elsif langue_active == 'es' and product.metafields.custom.images_espagnol.value != blank -%}
+  {%- assign product_media = product.metafields.custom.images_espagnol.value -%}
 {%- elsif product.metafields.custom.images_francais.value != blank -%}
   {%- assign product_media = product.metafields.custom.images_francais.value -%}
 {%- else -%}
