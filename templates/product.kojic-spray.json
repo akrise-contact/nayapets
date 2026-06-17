@@ -287,6 +287,99 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "faq_HHmyXn": {
+      "type": "faq",
+      "blocks": {
+        "item_taQGdm": {
+          "type": "item",
+          "settings": {
+            "title": "How often should I use it?",
+            "content": "<p>2 to 3 times a week maximum. 30 seconds per use. The Cosmellia Kojic Spray is designed to be effective without overloading your skin. Less is more.</p>"
+          }
+        },
+        "item_azLcfT": {
+          "type": "item",
+          "settings": {
+            "title": "When will I see results?",
+            "content": "<p>From the very first rinse. Not in 4 weeks. Not after 10 uses. One use is enough to feel the difference under your fingers and see it in your mirror.</p>"
+          }
+        },
+        "item_Azbhxh": {
+          "type": "item",
+          "settings": {
+            "title": "Is it painful?",
+            "content": "<p>Zero pain. Zero burning sensation. Our formula dissolves dead skin cells chemically — no scrubbing, no friction, no damage to your skin barrier. You may feel a slight tingling on heavily pigmented areas. That's the sign it's working.</p>"
+          }
+        },
+        "item_cwH6cX": {
+          "type": "item",
+          "settings": {
+            "title": "Is it suitable for sensitive skin?",
+            "content": "<p>Yes. It's actually one of our most used formulas on sensitive skin. Zero irritation, zero redness, zero compromise on effectiveness. If you have a specific dermatological condition — start with a small area first.</p>"
+          }
+        },
+        "item_j3NxcQ": {
+          "type": "item",
+          "settings": {
+            "title": "How does the 90-day guarantee work?",
+            "content": "<p>Simple. You have 90 days from delivery to test the product. If you see no results — contact us and we'll refund you. In full. No questions asked. No need to send the product back. We can afford to offer this because we know it works.</p>"
+          }
+        },
+        "item_cmbXXA": {
+          "type": "item",
+          "settings": {
+            "title": "Can I use it with my current routine?",
+            "content": "<p>Yes. The Cosmellia Kojic Spray fits into any existing routine. Use it before your serum and moisturizer. On dry skin, before anything else. It even boosts the effectiveness of your other products — by removing dead skin cells, your actives penetrate better afterwards.</p>"
+          }
+        },
+        "item_B8DR9f": {
+          "type": "item",
+          "settings": {
+            "title": "Is the product natural?",
+            "content": "<p>Our formula is clean beauty. ✅ Paraben-free ✅ Sulfate-free ✅ Alcohol-free ✅ Dermatologically tested ✅ Clinically proven non-irritating. Ingredients that respect your skin, with results that prove their effectiveness.</p>"
+          }
+        },
+        "item_xEqNMe": {
+          "type": "item",
+          "settings": {
+            "title": "I've never ordered online. Is it safe?",
+            "content": "<p>100%. Secure payment by credit card. Your data is never shared. And with our 90-day guarantee — you take zero financial risk. You have nothing to lose. Except your dark spots.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_taQGdm",
+        "item_azLcfT",
+        "item_Azbhxh",
+        "item_cwH6cX",
+        "item_j3NxcQ",
+        "item_cmbXXA",
+        "item_B8DR9f",
+        "item_xEqNMe"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -295,6 +388,7 @@
     "custom_liquid_jzVUVK",
     "multi_column_pnb8mU",
     "custom_liquid_AHiLGf",
-    "custom_liquid_MkmExh"
+    "custom_liquid_MkmExh",
+    "faq_HHmyXn"
   ]
 }
