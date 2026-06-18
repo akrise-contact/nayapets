@@ -47,6 +47,13 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "image_FYH6PE": {
+          "type": "image",
+          "settings": {
+            "alignment": "start",
+            "max_width": 150
+          }
         }
       },
       "block_order": [
@@ -54,7 +61,8 @@
         "text_ekqfNg",
         "liquid_KFctiV",
         "kaching_bundles_app_block_3y7rgU",
-        "buy_buttons"
+        "buy_buttons",
+        "image_FYH6PE"
       ],
       "settings": {
         "full_width": true,
